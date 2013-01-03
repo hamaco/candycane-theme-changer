@@ -1,7 +1,7 @@
 <?php
 
 $pluginContainer = ClassRegistry::getObject('PluginContainer');
-$pluginContainer->installed('cc_enter_cancel','0.1');
+$pluginContainer->installed('cc_enter_cancel','0.1.0');
 
 
 App::uses('CakeEventManager', 'Event');
